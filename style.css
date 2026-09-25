@@ -1,0 +1,62 @@
+/* 1. Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* 2. Header */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* 3 & 4. Nav và UL */
+nav {
+    background-color: #333333;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 5 & 6. LI và A */
+nav li {
+    display: inline-block;
+    width: 120px;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 7. Main và thẻ p */
+main {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 40px;
+}
+
+main p, main li {
+    line-height: 24px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* 8. Footer */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
